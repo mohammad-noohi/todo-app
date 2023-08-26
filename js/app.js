@@ -60,7 +60,7 @@ addTodoBtn.addEventListener("click", () => {
 });
 
 function addTodoItem() {
-  if (input.value) {
+  if (input.value.trim() {
     let inputValue = input.value;
     let todoElement = document.createElement("div");
     todoElement.className = "todo";
