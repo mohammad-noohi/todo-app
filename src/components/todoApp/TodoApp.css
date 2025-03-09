@@ -1,0 +1,64 @@
+.app {
+  padding-top: 4rem;
+}
+
+.app-wrapper {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.app__title {
+  text-align: center;
+  font-size: 4rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.todo-form-wrapper {
+}
+
+.todo-form {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 50rem;
+  margin: 4rem auto;
+  justify-content: space-between;
+}
+
+.input-group input,
+.input-group select {
+  font-size: 1.8rem;
+  padding: 0.8rem;
+  border: none;
+  outline: none;
+  background-color: #eee;
+}
+
+.todo-field {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.todo-field .plus-icon {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.todos-filter {
+}
+
+.todos {
+  max-width: 50rem;
+  margin: 3rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}

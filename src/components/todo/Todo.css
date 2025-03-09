@@ -1,0 +1,40 @@
+.todo {
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+/* completed todo style */
+.todo.todo--completed {
+  opacity: 0.5;
+}
+
+.todo.todo--completed .todo-text {
+  text-decoration: line-through;
+}
+
+.todo-text {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.todo-actions {
+  display: flex;
+  align-items: center;
+}
+
+.todo-action {
+  padding: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+#check-btn {
+  background-color: rgb(8, 156, 23);
+}
+
+#remove-btn {
+  background-color: crimson;
+}
