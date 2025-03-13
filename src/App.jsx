@@ -6,10 +6,8 @@ import "./App.css";
 import React from "react";
 import TodoApp from "./components/todoApp/TodoApp";
 
-class App extends React.Component {
-  render() {
-    return <TodoApp />;
-  }
+function App() {
+  return <TodoApp />;
 }
 
 export default App;
